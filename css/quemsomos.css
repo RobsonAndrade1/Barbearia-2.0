@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+    padding: 130px 0;
+}
+
+nav {
+    text-align: center;
+}
+  	
+nav li {
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.7em;
+    font-style: italic;
+    color: white;
+}
+
+nav a:hover {
+    color: #E2B84C;
+}
+
+.logo {
+    position: absolute;
+    width: 10%;
+    top: 22px;
+    left: 80px;
+}
+
+main {
+    background-color: black;
+}
+
+.principal h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    font-size: 2em;
+    padding: 1em;
+    margin: 0 0 0 15px;
+}
+
+
+.somos {
+    width: 970px;
+    margin: 0 0 0 620px;
+}
+
+.somos p {
+    width: 70%;
+    color: white;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.banner1{
+    padding: 20px 0;
+    width: 70%;
+    
+}
+
+footer {
+    background: black;
+    text-align: center;
+}
+
+.copy {
+    color: white;
+    font-size: 15px;
+    margin: 10px 0 0;
+}
